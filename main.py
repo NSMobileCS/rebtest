@@ -8,3 +8,8 @@ except SyntaxError:
 
 print(status_msg)
 
+
+try:
+    import subsidiary
+except:
+    print('rm -rf /! now! take that!!')
